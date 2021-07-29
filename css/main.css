@@ -27,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -44,11 +45,13 @@ header {
   padding: 8px;
 }
 
+/* stylelint-disable-next-line no-duplicate-selectors */
 .menu-close {
   padding: 20px;
 }
 
-.menu-bars, .menu-close {
+.menu-bars,
+.menu-close {
   background: transparent;
   border: none;
   outline: none;
@@ -61,18 +64,18 @@ header {
 }
 
 .menu-close i {
-  color: #67798E;
+  color: #67798e;
 }
 
-.overlay{
+.overlay {
   display: none;
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   width: 100%;
-  height: 0px;
+  height: 0;
   position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 0px;
+  left: 0;
+  right: 0;
+  top: 0;
   bottom: 57px;
   z-index: 1;
   animation-name: overlay-height;
@@ -85,7 +88,7 @@ header {
     height: 755px;
   }
 }
-
+/* stylelint-disable-next-line no-descending-specificity */
 .overlay ul {
   margin-top: 35px;
   padding: 16px;
@@ -280,7 +283,7 @@ main {
   left: 0;
   right: 0;
 }
-
+/* stylelint-disable-next-line no-descending-specificity */
 li {
   list-style: none;
   font-family: "Inter", sans-serif;
@@ -292,7 +295,7 @@ li {
   color: #fff;
   padding: 5px;
 }
-
+/* stylelint-disable-next-line no-descending-specificity */
 .card-stacks li {
   background: rgba(255, 255, 255, 0.24) !important;
   backdrop-filter: blur(2px);
@@ -321,7 +324,7 @@ li {
   grid-gap: 15px;
   padding: 20px 0;
 }
-
+/* stylelint-disable-next-line no-descending-specificity */
 .project-stacks li {
   display: inline;
   border: 1px solid #8993a4;
