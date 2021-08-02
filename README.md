@@ -45,3 +45,17 @@ navigate to index.html and open it in your web browser
 
 - GitHub: [@Elbie-Em](https://github.com/Elbie-em)
 - LinkedIn: [elbie-moonga](https://www.linkedin.com/in/elbiemoonga/) 
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Elbie-em/CR-TRAINING-MOBILE-MENU/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- [Microverse](microverse.org)
